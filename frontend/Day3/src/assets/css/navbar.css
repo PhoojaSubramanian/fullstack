@@ -1,0 +1,46 @@
+a
+{
+  text-decoration: none;
+  color: white;
+}
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 80px;
+    box-shadow: 0px  10px 5px rgba(0, 0, 0, 0.11);
+    font-variant: small-caps;
+    color: white;
+    background-color: #49274a;
+    font-size: 20px;
+  }
+  
+  .left img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .right li {
+    margin-left: 30px;
+    margin-right: 35px;
+  }
+  
+  @media (max-width: 768px) {
+    /* Add responsive styles here */
+    .nav_container {
+      flex-direction: column;
+    }
+  
+    .right {
+      margin-top: 10px; /* Adjust the spacing between logo and menu in mobile view */
+    }
+  }
+  
