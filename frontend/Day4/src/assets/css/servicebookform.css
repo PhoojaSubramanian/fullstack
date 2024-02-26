@@ -1,0 +1,55 @@
+/* servicebookform.css */
+
+.service-form-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.form-heading {
+  color: #49274a;
+  font-variant: small-caps;
+}
+
+.bookform {
+  /* display: flex; */
+  /* flex-direction: column; */
+  max-width: 700px;
+  margin: auto;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-input {
+  width: 500px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #49274a;
+  font-variant: small-caps;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #49274a;
+  box-shadow: 0 0 5px rgba(73, 39, 74, 0.5);
+}
+
+.form-submit-button {
+  background-color: #49274a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 200px;
+}
+
+.form-submit-button:hover {
+  background-color: white;
+  color: #49274a;
+  border: 1px solid #49274a ;
+}

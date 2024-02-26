@@ -1,0 +1,57 @@
+.service-container {
+    position: relative;
+    height: 500px;
+    background-image: url("./../images/homeback1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    color: white; /* Text color */
+  }
+  .q-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Black overlay with 50% opacity */
+  }
+  .q-container p {
+    font-size: 40px;
+    margin: 0;
+    font-variant: small-caps;
+  }
+  
+  .contents
+  {
+    font-size: 20px;
+    color: #49274a;
+    padding: 15px;
+  }
+  /* #book_but:hover
+  {
+    background-color: #49274a;
+    color: white;
+  } */
+  /* Add these styles to your servicepage.css file */
+
+.book_but:hover {
+    background-color: #49274a; /* Change to the desired color on hover */
+    color: white; /* Change to the desired text color on hover */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add a smooth transition effect */
+  }
+  .book_but
+  {
+    height:'40px';
+    width:'200px';
+    color:'#49274a';
+    background-color:'white';
+    border-radius:'7px';
+    float:'right'
+  }
+  
