@@ -1,0 +1,43 @@
+.adside-container ul
+{
+    list-style-type: none;
+    color: #49274a;
+}
+.adside-container
+{
+    margin: 0px;
+}
+.adside-container a{
+    text-decoration: none;
+    color: #49274a;
+}
+.large-side-options:hover
+{
+    background-color: #49274a;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: white;
+}
+.large-side-options{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.small-side-options{
+    padding: 10px;
+}
+.small-side{
+    width: 100px;
+    /* background-color: black; */
+}
+.large-side{
+    width: 220px;
+    /* background-color: black; */
+}
+.large-side-options p{
+    font-size: 25px;
+}
+.large-side-options svg{
+    margin-left: 20px;
+}
+
